@@ -1,0 +1,214 @@
+@import"mixin";
+//valores de titulo
+
+
+// 1 header index
+.header-encabezado {
+    width: 100vw;
+    height: 120px;
+    background-color: #706a6a;
+    font-family: roboto, sans-serif;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.container-encabezado {
+    width: 100%;
+    height: 120px;
+    margin-left: 0px;
+    margin-right: 15px;
+
+    @include movil {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+
+.title {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: #b9a9a9;
+}
+
+.logo {
+    float: left;
+}
+
+.logo-img-sup {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+.title {
+    width: 180px;
+    height: 150px;
+    float: left;
+
+    @include movil {
+        width: 200px;
+        height: 70px;
+        margin-left: 5px;
+        margin-top: 5px;
+        color: #c0a6a6;
+
+    }
+}
+
+.title h1 {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 20px;
+    -webkit-text-stroke: 2px rgb(34, 31, 31);
+
+    @include movil {
+        text-align: left;
+        font-family: 'roboto', sans-serif;
+        font-size: 25px;
+        margin-top: 5px;
+        -webkit-text-stroke: 1px rgb(34, 31, 31);
+    }
+
+}
+
+.nav_img {
+    display: none;
+
+    @include movil {
+        width: 80px;
+        text-align: left;
+        font-family: 'roboto', sans-serif;
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: right;
+        -webkit-text-stroke: 1px rgb(34, 31, 31);
+    }
+}
+
+.nav_img {
+    @include movil {
+        display: flex;
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .nav_input {
+        display: none;
+        @include movil {
+            transition: clip-path 1.5s;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            position: absolute;
+        }
+    }
+
+    .nav-list {
+        @include movil {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .nav_input:checked+.bar-menu {
+        @include movil {
+            transition: clip-path 1.5s;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            position: absolute;
+        }
+
+    }
+
+    .bar-menu {
+        list-style: none;
+        float: right;
+        margin-right: 20px;
+        
+        @include movil {
+            background-color: #746e6e;
+            position: fixed;
+            top: 89px;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: columns;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            transition: clip-path 1.5s;
+            -webkit-transition: clip-path 1.5s;
+            -moz-transition: clip-path 1.5s;
+            -ms-transition: clip-path 1.5s;
+            -o-transition: clip-path 1.5s;
+        }
+    }
+
+    li:hover {
+        transform: scale(1.05, 1.05);
+        -webkit-transform: scale(1.05, 1.05);
+        -moz-transform: scale(1.05, 1.05);
+        -ms-transform: scale(1.05, 1.05);
+        -o-transform: scale(1.05, 1.05);
+        transform-origin: center;
+        transition: transform 0.5s;
+        -webkit-transition: transform 0.5s;
+        -moz-transition: transform 0.5s;
+        -ms-transition: transform 0.5s;
+        -o-transition: transform 0.5s;
+    }
+
+    .nav_item:hover {
+        color: #fff;
+    }
+
+    .bar-menu ul li {
+        margin-top: 40px;
+        list-style: none;
+        float: left;
+        text-align: center;
+        margin-right: 15px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    ul {
+        @include movil {
+            list-style-type: none;
+        }
+    }
+
+    .bar-menu ul li a {
+        text-decoration: none;
+        color: #000000;
+
+        @include movil {
+            align-items: center;
+        }
+    }
+
+    li a {
+        @include movil {
+            align-items: center;
+        }
+
+    }
+
+    .img-responsive {
+        display: none;
+    }
+
+    body {
+        @include movil {
+            min-height: 100vh;
+            position: relative;
+        }
+
+    }

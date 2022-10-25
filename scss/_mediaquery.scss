@@ -1,0 +1,257 @@
+
+
+@media (min-width: 310px) and (max-width:768px) {
+
+    header{
+        background-color: #726A6A;
+        width: 100%;
+        height: 90px;
+    }
+
+    .container-encabezado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }  
+
+    .logo {
+        display: none; 
+    .title {
+        width: 200px;
+        height: 70px;
+        margin-left: 5px;
+        margin-top: 5px;
+        color: #c0a6a6;
+    }
+
+    .title h1 {
+        text-align: left;
+        font-family: 'roboto', sans-serif;
+        font-size: 25px;
+        margin-top: 5px;
+        -webkit-text-stroke: 1px rgb(34, 31, 31);
+    }
+
+    .title h3 {
+        color: #fff;
+        font-family: 'roboto', sans-serif;
+        -webkit-text-stroke: 1px rgb(34, 31, 31);
+
+        align-items: left;
+    }
+
+    .nav_img {
+        width: 80px;
+        text-align: left;
+        font-family: 'roboto', sans-serif;
+        font-size: 20px;
+        margin-top: 5px;
+        text-align: right;
+        -webkit-text-stroke: 1px rgb(34, 31, 31);
+    }
+
+    .nav_img {
+        display:none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav_input {
+        display: flex;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li a {
+        align-items: center;
+    }
+
+    .nav_item {
+        font-family: 'roboto', sans-serif;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bar-menu {
+
+        background-color: #746e6e;
+        position: fixed;
+        top: 89px;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 1.5s;
+        -webkit-transition: clip-path 1.5s;
+        -moz-transition: clip-path 1.5s;
+        -ms-transition: clip-path 1.5s;
+        -o-transition: clip-path 1.5s;
+    }
+
+    .nav-list {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav_input:checked+.bar-menu {
+        transition: clip-path 1.5s;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        position: absolute;
+    }
+
+    body {
+        min-height: 100vh;
+        position: relative;
+    }
+
+    /*-------- inicio nosotros responsive------------*/
+    .figura1 {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+        background-image: url(../img-nosotros/fotovieja_1.jpg);
+        ;
+        background-size: cover;
+        background-position: center;
+        position: inherit;
+    }
+
+    .figura2 {
+
+        margin-top: 20px;
+        width: px;
+        height: 300px;
+        background-image: url(../img-nosotros/fotovieja_2.jpg);
+        background-size: cover;
+        background-position: contain;
+        position: inherit;
+
+    }
+
+    .figura3 {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px;
+        background-image: url(../img-nosotros/fotovieja_3.jpg);
+        background-size: cover;
+        background-position: contain;
+        position: inherit;
+    }
+
+    /*-------- fin nosotros responsive------------*/
+
+    /*------- body de index--------*/
+    .index {
+        background-image: url(../img-movil-background/img-back-movil-inicio.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*------- body de nosotros--------*/
+    .nosotros {
+        background-repeat: no-repeat;
+        background-size: column;
+        background-position: contain;
+    }
+
+    /*------- body de Reservas--------*/
+    .reservas {
+        background-color: hsl(29, 51%, 75%);
+    }
+
+    main .Form {
+        /* background-color: #384a5c;*/
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+        margin-top: 50px;
+        width: 80%;
+        height: 400px;
+    }
+
+    .contenedor-nosotros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+    }
+
+    .contenedor-nosotros figure {
+        margin: 10px;
+        position: relative;
+        height: 300px;
+        cursor: pointer;
+        width: 315px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(15, 15, 15, 0.5);
+    }
+
+    footer .foot {
+        background-color: rgb(36, 34, 34);
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .prueba {
+        margin-top: 100px;
+        width: 100%;
+        height: 300px;
+        background-color: #000000;
+    }
+
+    .mail {
+        text-align: center;
+        font-family: 'roboto', sans-serif;
+        color: #fff;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nombre {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        font-family: 'roboto', sans-serif;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    .nombre h3 {
+        font-family: 'roboto', sans-serif;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .img-footer {
+        width: 50px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

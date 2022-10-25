@@ -1,0 +1,432 @@
+.index {
+    background-image: url(../img-background/fondoIndex.jpg);
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+
+//contenido tienda
+.main-tienda {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+.tienda-contenedor-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #52636e;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.tienda-contenedor-2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #505b66;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.tienda-contenedor-3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #52636e;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.tienda-contenedor-4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #515b66;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.img-bolsa-1-1 {
+    background-image: url(../img-tienda/bolsa_coffee_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 250px;
+}
+
+.comentario-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.img-bolsa-1-2 {
+    background-image: url(../img-tienda/bolsa_coffee_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 250px;
+}
+
+.comentario-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.img-bolsa-1-3 {
+    background-image: url(../img-tienda/bolsa_coffee_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 250px;
+}
+
+.comentario-1-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.img-bolsa-1-4 {
+    background-image: url(../img-tienda/bolsa_coffee_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 200px;
+    height: 250px;
+}
+
+.comentario-1-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.btn-compra-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.btn-compra-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.btn-compra-1-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.btn-compra-1-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    font-size: 20px;
+}
+
+.btn-compra {
+
+    background-image: url(../img-tienda/boton-compra-rec.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #437768;
+    border-radius: 5px;
+    height: 70px;
+    width: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 7px 13px 70px #000;
+}
+
+.btn-compra:hover {
+    cursor: pointer;
+}
+
+//contenido reservas
+
+.reservas {
+    background-color: hsl(29, 44%, 73%);
+
+}
+
+.main-mesas {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+
+}
+
+.main-mesas {
+    .titulo-mesas {
+        font-family: 'roboto', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .grid-container-mesas {
+
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, .9fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 25px;
+        padding: 20px;
+        justify-content: space-around;
+    }
+
+    .item1 {
+        background-image: url(../img-reservas/work-table.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item2 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item3 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item4 {
+        background-image: url(../img-reservas/work-table.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item5 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item6 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item7 {
+        background-image: url(../img-reservas/work-table.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item8 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item9 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item10 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item11 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item12 {
+        background-image: url(../img-reservas/table-of-four.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div .btn-reserva {
+        display: flex;
+        width: 70px;
+        height: 30px;
+        background-color: rgb(182, 204, 224);
+        font-size: 14px;
+        font-family: sans-serif;
+        align-items: center;
+        text-align: center;
+        border-radius: 3px;
+        font-weight: bold;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -o-border-radius: 3px;
+        border-style: none;
+    }
+
+    .btn-reserva:hover {
+        cursor: pointer;
+        color: rgb(27, 128, 175);
+        background-color: #fff;
+        transition: background-color .5s;
+        -webkit-transition: background-color .5s;
+        -moz-transition: background-color .5s;
+        -ms-transition: background-color .5s;
+        -o-transition: background-color .5s;
+    }
+
+}
+
+// bootstrap 
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+    .Form {
+        background-color: #384a5c;
+        justify-content: center;
+        border-radius: 5px;
+        align-items: center;
+        margin-top: 50px;
+        width: 30%;
+        height: 400px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: 7px 13px 30px #000;
+    }
+    .text-form {
+        font-size: 30px;
+        font-family: 'roboto', sans-serif;
+        color: #fff;
+    }
+    .mb-3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .mb-3 .form-control {
+        margin-bottom: 10px;
+        width: 70%;
+        align-items: center;
+    }
+    .form-label {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'roboto', sans-serif;
+        font-weight: bold;
+    }
+    .mb-3 .form-control {
+        justify-content: center;
+    }
+    .boton-enviar {
+        font-family: 'roboto', sans-serif;
+        width: 100px;
+        height: 35px;
+        border: 1px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        box-shadow: 7px 13px 70px #000;
+    }
+
+}

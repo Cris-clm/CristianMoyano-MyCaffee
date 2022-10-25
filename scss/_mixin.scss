@@ -1,0 +1,33 @@
+
+//utilizamos mixin para mediaquery 
+
+
+@mixin tablet {
+
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin movil {
+
+    @media screen and (max-width:540px) {
+        @content;
+    }
+
+}
+
+@mixin tablet-1 {
+
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin movil-1 {
+
+    @media screen and (min-width:540px) {
+        @content;
+    }
+
+}
